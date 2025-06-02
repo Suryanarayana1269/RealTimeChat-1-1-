@@ -40,9 +40,8 @@ npm install
 # Create a .env file (see .env.example)
 npm start
 
-### Environment Variables:
+### Creat Environment Variables in .env file:
 MONGO_URI – Your MongoDB connection string
-<vscode_annotation details='%5B%7B%22title%22%3A%22hardcoded-credentials%22%2C%22description%22%3A%22Embedding%20credentials%20in%20source%20code%20risks%20unauthorized%20access%22%7D%5D'> </vscode_annotation>
 JWT_SECRET – Secret for JWT signing
 
 ### 3. Setup the Frontend
