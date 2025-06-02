@@ -33,16 +33,25 @@ A modern, full-stack real-time chat application built with **React**, **Vite**, 
 git clone https://github.com/yourusername/real-time-chat.git
 cd real-time-chat
 ```
+### Create a .env file (see .env.example)
+### Creat Environment Variables in .env file in backend directory:
 
-### 2. 2. Setup the Backend
-cd backend 
-npm install
-# Create a .env file (see .env.example)
-npm start
-
-### Creat Environment Variables in .env file:
+backend\.env:
 MONGO_URI – Your MongoDB connection string
 JWT_SECRET – Secret for JWT signing
+![image](https://github.com/user-attachments/assets/870a51cc-963e-4b39-9647-d7a16c656662)
+
+frontend\.env:
+VITE_API_URL=http://localhost:5000/api
+VITE_SOCKET_URL=http://localhost:5000
+![image](https://github.com/user-attachments/assets/7dd9956e-3305-43c1-871b-4999da2efee8)
+
+
+### 2. Setup the Backend
+cd backend 
+npm install
+npm start
+
 
 ### 3. Setup the Frontend
 cd frontend
